@@ -1,0 +1,38 @@
+Starting at Tuesday 06 February 2024 05:20:00 PM IST
+Running on hosts: scn48-10g
+Running on 1 nodes.
+Running 32 tasks.
+Job id is 217528
+Job submission directory is : /nlsasfs/home/ttbhashini/sbishal/ICL/krishna
+scn48-mn           Tue Feb  6 17:20:05 2024  450.236.01
+[0] A100-SXM4-40GB | 27°C,   0 % |     0 / 40537 MB |
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/langchain/__init__.py:29: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/langchain/__init__.py:29: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /nlsasfs/home/ttbhashini/sbishal/.cache/huggingface/token
+Login successful
+Loading checkpoint shards:   0%|                                                               | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|███████████████████████████                           | 1/2 [01:52<01:52, 112.97s/it]Loading checkpoint shards: 100%|███████████████████████████████████████████████████████| 2/2 [02:23<00:00, 64.46s/it]Loading checkpoint shards: 100%|███████████████████████████████████████████████████████| 2/2 [02:23<00:00, 71.74s/it]
+Loading checkpoint shards:   0%|                                                               | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|███████████████████████████▌                           | 1/2 [00:03<00:03,  3.94s/it]Loading checkpoint shards: 100%|███████████████████████████████████████████████████████| 2/2 [00:05<00:00,  2.44s/it]Loading checkpoint shards: 100%|███████████████████████████████████████████████████████| 2/2 [00:05<00:00,  2.67s/it]
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+started running:
+checkpoint-1:
+check-point-2:
+predicting:   0%|                                                                             | 0/10 [00:00<?, ?it/s]predicting:   0%|                                                                             | 0/10 [00:15<?, ?it/s]
+Traceback (most recent call last):
+  File "ability_transfer_advhotpot.py", line 1632, in <module>
+    test_few_shot_prediction()
+  File "ability_transfer_advhotpot.py", line 1627, in test_few_shot_prediction
+    final_df = get_open_source_completions(test_data, train_data)
+  File "ability_transfer_advhotpot.py", line 1487, in get_open_source_completions
+    exemplars = static_subset_selection(val_data, train_data, 5, test_data)
+  File "ability_transfer_advhotpot.py", line 711, in static_subset_selection
+    LLM_loss = LLM_error_indicator(U, val_data)
+  File "ability_transfer_advhotpot.py", line 574, in LLM_error_indicator
+    answer=in_context_manual_prediction(row,exemplars)
+  File "ability_transfer_advhotpot.py", line 272, in in_context_manual_prediction
+    print("temp:",len(temp))
+NameError: name 'temp' is not defined

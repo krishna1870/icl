@@ -1,0 +1,2970 @@
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/langchain/__init__.py:29: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/langchain/__init__.py:29: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /nlsasfs/home/ttbhashini/sbishal/.cache/huggingface/token
+Login successful
+Loading checkpoint shards:   0%|                                                                                  | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|████████████████████████████████████▌                                    | 1/2 [01:51<01:51, 111.24s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [02:19<00:00, 62.69s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [02:19<00:00, 69.97s/it]
+Loading checkpoint shards:   0%|                                                                                  | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████████████████████████████████████                                     | 1/2 [00:04<00:04,  4.03s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:07<00:00,  3.66s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:07<00:00,  3.71s/it]
+started running:
+checkpoint-1:
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+check-point-2:
+predicting:   0%|                                                                                                | 0/10 [00:00<?, ?it/s]temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: D
+temp: 7
+
+answer: E
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: D
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/pipelines/base.py:1101: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  warnings.warn(
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: D
+ground_truth: E
+temp: 8
+
+answer: D
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: E
+predicting:  10%|████████▋                                                                              | 1/10 [03:06<27:54, 186.07s/it]temp: 7
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: D
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 9
+
+answer: B
+ground_truth: E
+predicting:  20%|█████████████████▍                                                                     | 2/10 [06:03<24:07, 180.95s/it]temp: 7
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: C
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 7
+
+answer: E
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: A
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 7
+
+answer: A
+ground_truth: E
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: E
+predicting:  30%|██████████████████████████                                                             | 3/10 [09:21<22:02, 188.94s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: D
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: E
+predicting:  40%|██████████████████████████████████▊                                                    | 4/10 [12:29<18:49, 188.23s/it]temp: 8
+
+answer: D
+ground_truth: D
+temp: 8
+
+answer: E
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 6
+
+answer: 
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  50%|███████████████████████████████████████████▌                                           | 5/10 [15:38<15:43, 188.67s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: A
+temp: 7
+
+answer: A
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: D
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 9
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: E
+predicting:  60%|████████████████████████████████████████████████████▏                                  | 6/10 [18:36<12:20, 185.08s/it]temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 7
+
+answer: E
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  70%|████████████████████████████████████████████████████████████▉                          | 7/10 [21:35<09:09, 183.09s/it]temp: 9
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 7
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: D
+ground_truth: A
+temp: 9
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 9
+
+answer: C
+ground_truth: E
+predicting:  80%|█████████████████████████████████████████████████████████████████████▌                 | 8/10 [24:35<06:04, 182.14s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: E
+predicting:  90%|██████████████████████████████████████████████████████████████████████████████▎        | 9/10 [27:40<03:02, 182.90s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 6
+
+answer: 
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: E
+predicting: 100%|██████████████████████████████████████████████████████████████████████████████████████| 10/10 [31:02<00:00, 188.75s/it]predicting: 100%|██████████████████████████████████████████████████████████████████████████████████████| 10/10 [31:02<00:00, 186.23s/it]
+predicting:   0%|                                                                                                | 0/90 [00:00<?, ?it/s]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: E
+predicting:   1%|▉                                                                                    | 1/90 [03:11<4:44:04, 191.51s/it]temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: A
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: E
+predicting:   2%|█▉                                                                                   | 2/90 [06:19<4:38:01, 189.57s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: E
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: E
+predicting:   3%|██▊                                                                                  | 3/90 [09:24<4:31:30, 187.25s/it]temp: 7
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: E
+predicting:   4%|███▊                                                                                 | 4/90 [12:33<4:29:35, 188.08s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 7
+
+answer: C
+ground_truth: E
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:   6%|████▋                                                                                | 5/90 [15:22<4:16:25, 181.01s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: D
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: A
+temp: 7
+
+answer: A
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: A
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 8
+
+answer: D
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: A
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 9
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:   7%|█████▋                                                                               | 6/90 [18:22<4:13:02, 180.75s/it]temp: 8
+
+answer: E
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: E
+predicting:   8%|██████▌                                                                              | 7/90 [21:25<4:10:56, 181.41s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: A
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:   9%|███████▌                                                                             | 8/90 [24:37<4:12:53, 185.04s/it]temp: 7
+
+answer: C
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  10%|████████▌                                                                            | 9/90 [27:47<4:11:55, 186.62s/it]temp: 6
+
+answer: 
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: C
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: D
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: D
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 9
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  11%|█████████▎                                                                          | 10/90 [30:57<4:09:54, 187.43s/it]temp: 8
+
+answer: A
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  12%|██████████▎                                                                         | 11/90 [34:01<4:05:31, 186.48s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: E
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 7
+
+answer: D
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  13%|███████████▏                                                                        | 12/90 [37:11<4:03:40, 187.44s/it]temp: 8
+
+answer: E
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: D
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: A
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: D
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  14%|████████████▏                                                                       | 13/90 [40:17<4:00:00, 187.01s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  16%|█████████████                                                                       | 14/90 [43:21<3:55:40, 186.06s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: A
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  17%|██████████████                                                                      | 15/90 [46:20<3:50:02, 184.03s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: A
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  18%|██████████████▉                                                                     | 16/90 [49:13<3:42:54, 180.73s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: D
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: D
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 8
+
+answer: D
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  19%|███████████████▊                                                                    | 17/90 [52:27<3:44:51, 184.82s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: D
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: D
+temp: 7
+
+answer: E
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 7
+
+answer: E
+ground_truth: E
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: E
+predicting:  20%|████████████████▊                                                                   | 18/90 [56:21<3:59:34, 199.65s/it]temp: 8
+
+answer: E
+ground_truth: D
+temp: 7
+
+answer: E
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: E
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: E
+predicting:  21%|█████████████████▎                                                                | 19/90 [1:01:28<4:34:24, 231.89s/it]temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: D
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: C
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: A
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 6
+
+answer: 
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 9
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  22%|██████████████████▏                                                               | 20/90 [1:06:24<4:53:00, 251.15s/it]temp: 8
+
+answer: B
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 7
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  23%|███████████████████▏                                                              | 21/90 [1:10:28<4:46:09, 248.84s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 6
+
+answer: 
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  24%|████████████████████                                                              | 22/90 [1:13:36<4:21:15, 230.51s/it]temp: 7
+
+answer: E
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: B
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: A
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 7
+
+answer: D
+ground_truth: A
+temp: 8
+
+answer: D
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  26%|████████████████████▉                                                             | 23/90 [1:16:26<3:57:11, 212.42s/it]temp: 7
+
+answer: C
+ground_truth: D
+temp: 7
+
+answer: D
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: E
+ground_truth: C
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 7
+
+answer: A
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: E
+temp: 10
+
+answer: E
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  27%|█████████████████████▊                                                            | 24/90 [1:19:35<3:46:04, 205.53s/it]temp: 8
+
+answer: E
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 8
+
+answer: D
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 8
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: B
+ground_truth: B
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 8
+
+answer: C
+ground_truth: E
+temp: 8
+
+answer: B
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 8
+
+answer: E
+ground_truth: A
+temp: 8
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: E
+predicting:  28%|██████████████████████▊                                                           | 25/90 [1:22:46<3:37:51, 201.09s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 7
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 8
+
+answer: E
+ground_truth: B
+temp: 8
+
+answer: A
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: A
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 8
+
+answer: B
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: A
+temp: 7
+
+answer: A
+ground_truth: E
+temp: 6
+
+answer: 
+ground_truth: E
+temp: 8
+
+answer: A
+ground_truth: E
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: C
+ground_truth: E
+predicting:  29%|███████████████████████▋                                                          | 26/90 [1:25:52<3:29:45, 196.65s/it]temp: 8
+
+answer: C
+ground_truth: D
+temp: 8
+
+answer: C
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 7
+
+answer: A
+ground_truth: B
+temp: 7
+
+answer: C
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: B
+temp: 7
+
+answer: E
+ground_truth: C
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 7
+
+answer: E
+ground_truth: B
+temp: 6
+
+answer: 
+ground_truth: D
+temp: 7
+
+answer: (
+ground_truth: C
+temp: 8
+
+answer: C
+ground_truth: C
+temp: 7
+
+answer: B
+ground_truth: A
+temp: 7
+
+answer: B
+ground_truth: E
+temp: 7
+
+answer: E
+ground_truth: E
+temp: 7
+
+answer: C
+ground_truth: E
+temp: 7
+
+answer: E
+ground_truth: A
+temp: 6
+
+answer: 
+ground_truth: D

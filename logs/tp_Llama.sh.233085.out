@@ -1,0 +1,274 @@
+Starting at Wednesday 20 March 2024 02:14:38 AM IST
+Running on hosts: scn2-10g
+Running on 1 nodes.
+Running 32 tasks.
+Job id is 233085
+Job submission directory is : /nlsasfs/home/ttbhashini/sbishal/ICL/krishna
+scn2-mn            Wed Mar 20 02:14:47 2024  450.236.01
+[0] A100-SXM4-40GB | 35°C,  81 % |  9333 / 40537 MB | madhavan(843M) madhavan(843M) madhavan(843M) madhavan(6671M)
+CUDA_VISIBLE_DEVICES=0
+task=aquarat
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=10
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=0
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_10_balance_1
+03/20/2024 02:15:48 - INFO - __main__ - start print args
+03/20/2024 02:15:48 - INFO - __main__ - select_most_useful:1
+03/20/2024 02:15:48 - INFO - __main__ - mask_same_candidate_indication_pair:1
+03/20/2024 02:15:48 - INFO - __main__ - exp_tag:2022_1210_final
+03/20/2024 02:15:48 - INFO - __main__ - select_example_label_balance:1
+03/20/2024 02:15:48 - INFO - __main__ - select_metric:loss
+03/20/2024 02:15:48 - INFO - __main__ - indication_order_random_seed:100
+03/20/2024 02:15:48 - INFO - __main__ - progressive_p:3.0
+03/20/2024 02:15:48 - INFO - __main__ - initial_indication_set_size:4
+03/20/2024 02:15:48 - INFO - __main__ - final_candidate_size:10
+03/20/2024 02:15:48 - INFO - __main__ - indicate_example_from:random
+03/20/2024 02:15:48 - INFO - __main__ - debug_mode_trial_num:5
+03/20/2024 02:15:48 - INFO - __main__ - compare_debug_mode:0
+03/20/2024 02:15:48 - INFO - __main__ - method:direct
+03/20/2024 02:15:48 - INFO - __main__ - template_idx:0
+03/20/2024 02:15:48 - INFO - __main__ - do_train:False
+03/20/2024 02:15:48 - INFO - __main__ - do_zeroshot:True
+03/20/2024 02:15:48 - INFO - __main__ - do_check:False
+03/20/2024 02:15:48 - INFO - __main__ - use_calibration:0
+03/20/2024 02:15:48 - INFO - __main__ - use_demonstrations:False
+03/20/2024 02:15:48 - INFO - __main__ - ensemble:False
+03/20/2024 02:15:48 - INFO - __main__ - prompt_tune:False
+03/20/2024 02:15:48 - INFO - __main__ - head_tune:False
+03/20/2024 02:15:48 - INFO - __main__ - transform_tune:False
+03/20/2024 02:15:48 - INFO - __main__ - log_file:None
+03/20/2024 02:15:48 - INFO - __main__ - task:aquarat
+03/20/2024 02:15:48 - INFO - __main__ - train_task:None
+03/20/2024 02:15:48 - INFO - __main__ - k:16
+03/20/2024 02:15:48 - INFO - __main__ - seed:100
+03/20/2024 02:15:48 - INFO - __main__ - train_seed:100
+03/20/2024 02:15:48 - INFO - __main__ - lr:1e-05
+03/20/2024 02:15:48 - INFO - __main__ - warmup_steps:0
+03/20/2024 02:15:48 - INFO - __main__ - batch_size:16
+03/20/2024 02:15:48 - INFO - __main__ - out_dir:None
+03/20/2024 02:15:48 - INFO - __main__ - split:candidate
+03/20/2024 02:15:48 - INFO - __main__ - n_prefix:20
+03/20/2024 02:15:48 - INFO - __main__ - gpt2:mistralai/Mistral-7B-Instruct-v0.1
+hhdjwldjwhdhdjncenc
+Loading checkpoint shards:   0%|                                                                         | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|████████████████████████████████▌                                | 1/2 [01:23<01:23, 83.68s/it]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████| 2/2 [02:05<00:00, 58.79s/it]Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████| 2/2 [02:05<00:00, 62.53s/it]
+03/20/2024 02:18:28 - INFO - __main__ - ptm_name:mistralai/Mistral-7B-Instruct-v0.1
+03/20/2024 02:18:28 - INFO - __main__ - ptm param_num: 7241732096
+03/20/2024 02:18:28 - INFO - __main__ - direct aquarat
+03/20/2024 02:18:32 - INFO - __main__ - label_set:Counter({'A': 14, 'C': 12, 'B': 9, 'D': 9, 'E': 6})
+03/20/2024 02:18:32 - INFO - __main__ - iter_num:2
+03/20/2024 02:18:32 - INFO - __main__ - at the 0 th iter, the candidate_num = 50, the indication_num = 4, the total pair num = 200,  remaining_candidate_num = 16
+03/20/2024 02:18:32 - INFO - __main__ - at the 1 th iter, the candidate_num = 16, the indication_num = 12, the total pair num = 192,  remaining_candidate_num = 10
+03/20/2024 02:18:32 - INFO - __main__ - whole training set label distribution:Counter({'A': 14, 'C': 12, 'B': 9, 'D': 9, 'E': 6})
+03/20/2024 02:18:32 - INFO - __main__ - start iter:0
+03/20/2024 02:18:32 - INFO - __main__ - indication num = 4
+03/20/2024 02:18:32 - INFO - __main__ - now_indication_idx:(39, 30, 35, 36)
+03/20/2024 02:18:32 - INFO - my_dataset - self.candidate_demonstrations[0]: ["Question: Two friends plan to walk along a 43-km trail, starting at opposite ends of the trail at the same time. If Friend P's rate is 15% faster than Friend Q's, how many kilometers will Friend P have walked when they pass each other? options: ['A)21', 'B)21.5', 'C)22', 'D)22.5', 'E)23']", 'E']
+03/20/2024 02:18:32 - INFO - my_dataset - mydataset max_length_per_example:256
+03/20/2024 02:18:32 - INFO - my_dataset - mydataset max_length:-1
+03/20/2024 02:18:32 - INFO - __main__ - mydataset size:204
+03/20/2024 02:18:32 - INFO - __main__ - Checking the first example...
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: Two friends plan to walk along a 43-km trail, starting at opposite ends of the trail at the same time. If Friend P's rate is 15% faster than Friend Q's, how many kilometers will Friend P have walked when they pass each other? options: ['A)21', 'B)21.5', 'C)22', 'D)22.5', 'E)23']<s> The answer is:E<s>  Question: Suppose a, b, and c are positive integers with a < b < c such that 1/a + 1/b + 1/c = 1. What is a + b + c? options: ['A)1', 'B)4', 'C)9', 'D)11', 'E)no such integers exist']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: Two friends plan to walk along a 43-km trail, starting at opposite ends of the trail at the same time. If Friend P's rate is 15% faster than Friend Q's, how many kilometers will Friend P have walked when they pass each other? options: ['A)21', 'B)21.5', 'C)22', 'D)22.5', 'E)23']<s> The answer is:E<s>  Question: In a new housing development, trees are to be planted along the sidewalk of a certain street. Each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. How many trees can be planted if the road is 148 feet long? options: ['A)8', 'B)9', 'C)10', 'D)11', 'E)16']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: Two friends plan to walk along a 43-km trail, starting at opposite ends of the trail at the same time. If Friend P's rate is 15% faster than Friend Q's, how many kilometers will Friend P have walked when they pass each other? options: ['A)21', 'B)21.5', 'C)22', 'D)22.5', 'E)23']<s> The answer is:E<s>  Question: Krishan and Nandan jointly started a business. Krishan invested six times as Nandan did and invested his money for double time as compared to Nandan. Nandan earned Rs. 6000. If the gain is proportional to the money invested and the time for which the money is invested then the total gain was? options: ['A)Rs.78000', 'B)Rs.48000', 'C)Rs.6000', 'D)Rs.82000', 'E)Rs.32000']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: Two friends plan to walk along a 43-km trail, starting at opposite ends of the trail at the same time. If Friend P's rate is 15% faster than Friend Q's, how many kilometers will Friend P have walked when they pass each other? options: ['A)21', 'B)21.5', 'C)22', 'D)22.5', 'E)23']<s> The answer is:E<s>  Question: There are 8 players in a chess group, and each player plays each of the others once. Given that each game is played by two players, how many total games will be played? options: ['A)10', 'B)30', 'C)28', 'D)60', 'E)90']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: In the coordinate plane, points (x, 1) and (5, y) are on line k. If line k passes through the origin and has slope 1/5, then what are the values of x and y respectively? options: ['A)4 and 1', 'B)1 and 5', 'C)5 and 1', 'D)3 and 5', 'E)5 and 3']<s> The answer is:C<s>  Question: Suppose a, b, and c are positive integers with a < b < c such that 1/a + 1/b + 1/c = 1. What is a + b + c? options: ['A)1', 'B)4', 'C)9', 'D)11', 'E)no such integers exist']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: In the coordinate plane, points (x, 1) and (5, y) are on line k. If line k passes through the origin and has slope 1/5, then what are the values of x and y respectively? options: ['A)4 and 1', 'B)1 and 5', 'C)5 and 1', 'D)3 and 5', 'E)5 and 3']<s> The answer is:C<s>  Question: In a new housing development, trees are to be planted along the sidewalk of a certain street. Each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. How many trees can be planted if the road is 148 feet long? options: ['A)8', 'B)9', 'C)10', 'D)11', 'E)16']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: In the coordinate plane, points (x, 1) and (5, y) are on line k. If line k passes through the origin and has slope 1/5, then what are the values of x and y respectively? options: ['A)4 and 1', 'B)1 and 5', 'C)5 and 1', 'D)3 and 5', 'E)5 and 3']<s> The answer is:C<s>  Question: Krishan and Nandan jointly started a business. Krishan invested six times as Nandan did and invested his money for double time as compared to Nandan. Nandan earned Rs. 6000. If the gain is proportional to the money invested and the time for which the money is invested then the total gain was? options: ['A)Rs.78000', 'B)Rs.48000', 'C)Rs.6000', 'D)Rs.82000', 'E)Rs.32000']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: In the coordinate plane, points (x, 1) and (5, y) are on line k. If line k passes through the origin and has slope 1/5, then what are the values of x and y respectively? options: ['A)4 and 1', 'B)1 and 5', 'C)5 and 1', 'D)3 and 5', 'E)5 and 3']<s> The answer is:C<s>  Question: There are 8 players in a chess group, and each player plays each of the others once. Given that each game is played by two players, how many total games will be played? options: ['A)10', 'B)30', 'C)28', 'D)60', 'E)90']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: For all numbers p and q, the operation @ is defined by p@q = p^2 - pq. If xy ≠ 0, then which of the following can be equal to zero? I. x@y II. (xy)@y III. x@(x + y) options: ['A)II', 'B)I and II', 'C)I and III', 'D)II and III', 'E)All of the above']<s> The answer is:B<s>  Question: Suppose a, b, and c are positive integers with a < b < c such that 1/a + 1/b + 1/c = 1. What is a + b + c? options: ['A)1', 'B)4', 'C)9', 'D)11', 'E)no such integers exist']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: For all numbers p and q, the operation @ is defined by p@q = p^2 - pq. If xy ≠ 0, then which of the following can be equal to zero? I. x@y II. (xy)@y III. x@(x + y) options: ['A)II', 'B)I and II', 'C)I and III', 'D)II and III', 'E)All of the above']<s> The answer is:B<s>  Question: In a new housing development, trees are to be planted along the sidewalk of a certain street. Each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. How many trees can be planted if the road is 148 feet long? options: ['A)8', 'B)9', 'C)10', 'D)11', 'E)16']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: For all numbers p and q, the operation @ is defined by p@q = p^2 - pq. If xy ≠ 0, then which of the following can be equal to zero? I. x@y II. (xy)@y III. x@(x + y) options: ['A)II', 'B)I and II', 'C)I and III', 'D)II and III', 'E)All of the above']<s> The answer is:B<s>  Question: Krishan and Nandan jointly started a business. Krishan invested six times as Nandan did and invested his money for double time as compared to Nandan. Nandan earned Rs. 6000. If the gain is proportional to the money invested and the time for which the money is invested then the total gain was? options: ['A)Rs.78000', 'B)Rs.48000', 'C)Rs.6000', 'D)Rs.82000', 'E)Rs.32000']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: For all numbers p and q, the operation @ is defined by p@q = p^2 - pq. If xy ≠ 0, then which of the following can be equal to zero? I. x@y II. (xy)@y III. x@(x + y) options: ['A)II', 'B)I and II', 'C)I and III', 'D)II and III', 'E)All of the above']<s> The answer is:B<s>  Question: There are 8 players in a chess group, and each player plays each of the others once. Given that each game is played by two players, how many total games will be played? options: ['A)10', 'B)30', 'C)28', 'D)60', 'E)90']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: Carl is facing very difficult financial times and can only pay the interest on a $10,000 loan he has taken. The bank charges him a quarterly compound rate of 4%. What is the approximate interest he pays annually? options: ['A)$1600', 'B)$2000', 'C)$2150', 'D)$2500', 'E)$12000']<s> The answer is:A<s>  Question: Suppose a, b, and c are positive integers with a < b < c such that 1/a + 1/b + 1/c = 1. What is a + b + c? options: ['A)1', 'B)4', 'C)9', 'D)11', 'E)no such integers exist']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: Carl is facing very difficult financial times and can only pay the interest on a $10,000 loan he has taken. The bank charges him a quarterly compound rate of 4%. What is the approximate interest he pays annually? options: ['A)$1600', 'B)$2000', 'C)$2150', 'D)$2500', 'E)$12000']<s> The answer is:A<s>  Question: In a new housing development, trees are to be planted along the sidewalk of a certain street. Each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. How many trees can be planted if the road is 148 feet long? options: ['A)8', 'B)9', 'C)10', 'D)11', 'E)16']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: Carl is facing very difficult financial times and can only pay the interest on a $10,000 loan he has taken. The bank charges him a quarterly compound rate of 4%. What is the approximate interest he pays annually? options: ['A)$1600', 'B)$2000', 'C)$2150', 'D)$2500', 'E)$12000']<s> The answer is:A<s>  Question: Krishan and Nandan jointly started a business. Krishan invested six times as Nandan did and invested his money for double time as compared to Nandan. Nandan earned Rs. 6000. If the gain is proportional to the money invested and the time for which the money is invested then the total gain was? options: ['A)Rs.78000', 'B)Rs.48000', 'C)Rs.6000', 'D)Rs.82000', 'E)Rs.32000']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: Carl is facing very difficult financial times and can only pay the interest on a $10,000 loan he has taken. The bank charges him a quarterly compound rate of 4%. What is the approximate interest he pays annually? options: ['A)$1600', 'B)$2000', 'C)$2150', 'D)$2500', 'E)$12000']<s> The answer is:A<s>  Question: There are 8 players in a chess group, and each player plays each of the others once. Given that each game is played by two players, how many total games will be played? options: ['A)10', 'B)30', 'C)28', 'D)60', 'E)90']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: The speed at which a man can row a boat in still water is 25 kmph. If he rows downstream, where the speed of current is 11 kmph, what time will he take to cover 80 metres? options: ['A)18 seconds', 'B)27 seconds', 'C)26 seconds', 'D)12 seconds', 'E)8 seconds']<s> The answer is:E<s>  Question: Suppose a, b, and c are positive integers with a < b < c such that 1/a + 1/b + 1/c = 1. What is a + b + c? options: ['A)1', 'B)4', 'C)9', 'D)11', 'E)no such integers exist']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: The speed at which a man can row a boat in still water is 25 kmph. If he rows downstream, where the speed of current is 11 kmph, what time will he take to cover 80 metres? options: ['A)18 seconds', 'B)27 seconds', 'C)26 seconds', 'D)12 seconds', 'E)8 seconds']<s> The answer is:E<s>  Question: In a new housing development, trees are to be planted along the sidewalk of a certain street. Each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. How many trees can be planted if the road is 148 feet long? options: ['A)8', 'B)9', 'C)10', 'D)11', 'E)16']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: The speed at which a man can row a boat in still water is 25 kmph. If he rows downstream, where the speed of current is 11 kmph, what time will he take to cover 80 metres? options: ['A)18 seconds', 'B)27 seconds', 'C)26 seconds', 'D)12 seconds', 'E)8 seconds']<s> The answer is:E<s>  Question: Krishan and Nandan jointly started a business. Krishan invested six times as Nandan did and invested his money for double time as compared to Nandan. Nandan earned Rs. 6000. If the gain is proportional to the money invested and the time for which the money is invested then the total gain was? options: ['A)Rs.78000', 'B)Rs.48000', 'C)Rs.6000', 'D)Rs.82000', 'E)Rs.32000']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - __main__ - Input:
+03/20/2024 02:18:32 - INFO - __main__ - <s><s> Question: The speed at which a man can row a boat in still water is 25 kmph. If he rows downstream, where the speed of current is 11 kmph, what time will he take to cover 80 metres? options: ['A)18 seconds', 'B)27 seconds', 'C)26 seconds', 'D)12 seconds', 'E)8 seconds']<s> The answer is:E<s>  Question: There are 8 players in a chess group, and each player plays each of the others once. Given that each game is played by two players, how many total games will be played? options: ['A)10', 'B)30', 'C)28', 'D)60', 'E)90']<s> The answer is:
+03/20/2024 02:18:32 - INFO - __main__ - Output:
+03/20/2024 02:18:32 - INFO - __main__ - <s>  </s>
+03/20/2024 02:18:32 - INFO - run - batch_size:16
+full_train_data/aquarat/train.csv
+dataset is loading
+aquarat is loading
+['Question: question options: options', 'correct']
+["Question: Two friends plan to walk along a 43-km trail, starting at opposite ends of the trail at the same time. If Friend P's rate is 15% faster than Friend Q's, how many kilometers will Friend P have walked when they pass each other? options: ['A)21', 'B)21.5', 'C)22', 'D)22.5', 'E)23']", 'E']
+["Question: In the coordinate plane, points (x, 1) and (5, y) are on line k. If line k passes through the origin and has slope 1/5, then what are the values of x and y respectively? options: ['A)4 and 1', 'B)1 and 5', 'C)5 and 1', 'D)3 and 5', 'E)5 and 3']", 'C']
+["Question: For all numbers p and q, the operation @ is defined by p@q = p^2 - pq. If xy ≠ 0, then which of the following can be equal to zero?\nI. x@y\nII. (xy)@y\nIII. x@(x + y) options: ['A)II', 'B)I and II', 'C)I and III', 'D)II and III', 'E)All of the above']", 'B']
+["Question: Carl is facing very difficult financial times and can only pay the interest on a $10,000 loan he has taken. The bank charges him a quarterly compound rate of 4%. What is the approximate interest he pays annually? options: ['A)$1600', 'B)$2000', 'C)$2150', 'D)$2500', 'E)$12000']", 'A']
+data[0] in text_dataset: ['Question: question options: options', 'correct']
+iter_num: 2
+hi, i am working
+hi, i am working
+label: ['D', 'A', 'A', 'C', 'D', 'A', 'A', 'C', 'D', 'A', 'A', 'C', 'D', 'A', 'A', 'C']
+prompt generation completed!
+
+
+(["Question: Suppose a, b, and c are positive integers with a < b < c such that 1/a + 1/b + 1/c = 1. What is a + b + c? options: ['A)1', 'B)4', 'C)9', 'D)11', 'E)no such integers exist']", 'D'], ["Question: In a new housing development, trees are to be planted along the sidewalk of a certain street. Each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. How many trees can be planted if the road is 148 feet long? options: ['A)8', 'B)9', 'C)10', 'D)11', 'E)16']", 'A'], ["Question: Krishan and Nandan jointly started a business. Krishan invested six times as Nandan did and invested his money for double time as compared to Nandan. Nandan earned Rs. 6000. If the gain is proportional to the money invested and the time for which the money is invested then the total gain was? options: ['A)Rs.78000', 'B)Rs.48000', 'C)Rs.6000', 'D)Rs.82000', 'E)Rs.32000']", 'A'], ["Question: There are 8 players in a chess group, and each player plays each of the others once. Given that each game is played by two players, how many total games will be played? options: ['A)10', 'B)30', 'C)28', 'D)60', 'E)90']", 'C'])
+dataset size: 204
+dataset: <my_dataset.MyDataset object at 0x7f4369d4dfd0>
+batch_size:16
+  0%|                                                                                                   | 0/13 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+  0%|                                                                                                   | 0/13 [00:16<?, ?it/s]
+running on model
+Traceback (most recent call last):
+  File "main_for_progressive_examples_selection.py", line 782, in <module>
+    main(logger, args)
+  File "main_for_progressive_examples_selection.py", line 478, in main
+    now_loss_matrix = get_candidate_indication_pair_loss(
+  File "main_for_progressive_examples_selection.py", line 239, in get_candidate_indication_pair_loss
+    loss_matrix = my_inference(model,wholelabels,tokenizer, mydataset, args.batch_size)
+  File "/nlsasfs/home/ttbhashini/sbishal/ICL/krishna/ICL_Support_Example/run.py", line 167, in my_inference
+    avg_loss, token_loss = run_model(model, input_ids, attention_mask, token_type_ids,
+  File "/nlsasfs/home/ttbhashini/sbishal/ICL/krishna/ICL_Support_Example/run.py", line 184, in run_model
+    outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/models/mistral/modeling_mistral.py", line 1044, in forward
+    outputs = self.model(
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/models/mistral/modeling_mistral.py", line 929, in forward
+    layer_outputs = decoder_layer(
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/models/mistral/modeling_mistral.py", line 654, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/models/mistral/modeling_mistral.py", line 283, in forward
+    attn_weights = torch.matmul(query_states, key_states.transpose(2, 3)) / math.sqrt(self.head_dim)
+RuntimeError: CUDA out of memory. Tried to allocate 512.00 MiB (GPU 0; 39.59 GiB total capacity; 28.81 GiB already allocated; 353.19 MiB free; 28.84 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+progressive filtering finishes. start search
+03/20/2024 02:19:26 - INFO - __main__ - now print args
+03/20/2024 02:19:26 - INFO - __main__ - Namespace(batch_size=32, beam_size=8, cache_hash='-1', candidate_example_num_every_label=3, candidate_example_num_total=3, debug_candidate_size=-1, direct_plus=0, diversity_score_scale=4.0, final_batch_size=8, initial_example_idxs='searched_from_heuristic_score', initial_example_idxs_repeat_limit=4, input_dir='exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_10_balance_1', label_balance=1, max_length=1024, max_length_per_example=256, method='direct', num_indication=100, num_iteration=10, output_dir='exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_10_balance_1/search_dir', ptm_name='mistralai/Mistral-7B-Instruct-v0.1', sample_topk_range=4, seed=100, select_metric='loss', shuffle_order_num_in_beam=2, task='aquarat', template_idx=0, test_at_which_iter='first_last', train_data_shuffle_and_select_indication_data_seed=100, verify_metric='acc', which_diversity_feature='lm_feedback', which_normalization='std')
+03/20/2024 02:19:26 - INFO - __main__ - total calculate count:640
+0
+exps
+1
+tag_2022_1210_final
+2
+mistralai
+3
+Mistral-7B-Instruct-v0.1
+4
+aquarat
+5
+direct
+6
+tempalte_0
+7
+seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_10_balance_1
+dataset is loading
+aquarat is loading
+['Question: question options: options', 'correct']
+["Question: Three birds are flying at a fast rate of 900 kilometers per hour. What is their speed in miles per minute? [1km = 0.6 miles] options: ['A)32400', 'B)6000', 'C)600', 'D)60000', 'E)10']", 'A']
+["Question: A ship is leaving a port. It takes 240 seconds to passes through a 750m channel to get to the port gates, and takes 60 seconds to pass through the gates of the port. What is its length? options: ['A)100 m', 'B)150 m', 'C)200 m', 'D)250 m', 'E)300 m']", 'D']
+["Question: A rectangular piece of cloth 2 feet wide was cut lengthwise into two smaller rectangular pieces. The shorter piece was one-third of the length of the longer of the 2 new pieces and had an area of 12 square feet. What was the length Q in feet of the original piece of cloth before cutting? options: ['A)6', 'B)18', 'C)24', 'D)36', 'E)48']", 'C']
+["Question: In the xy-coordinate plane, which of the following points must lie on the line kx + 2y = 6 for every possible value of k? options: ['A)(1,1)', 'B)(0,3)', 'C)(2,0)', 'D)(3,6)', 'E)(6,3)']", 'B']
+data[0] in text_dataset: ['Question: question options: options', 'correct']
+direct
+Traceback (most recent call last):
+  File "main_for_iterative_optimize_train_acc_balance.py", line 295, in <module>
+    final_candidate_indication_score = torch.load(open(
+FileNotFoundError: [Errno 2] No such file or directory: 'exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_10_balance_1/final_result/final_candidate_indication_score_loss.pkl'

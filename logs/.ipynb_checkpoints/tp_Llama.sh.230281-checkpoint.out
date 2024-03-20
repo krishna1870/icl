@@ -1,0 +1,127 @@
+Starting at Sunday 10 March 2024 12:20:46 AM IST
+Running on hosts: scn50-10g
+Running on 1 nodes.
+Running 32 tasks.
+Job id is 230281
+Job submission directory is : /nlsasfs/home/ttbhashini/sbishal/ICL/krishna
+scn50-mn           Sun Mar 10 00:20:46 2024  450.236.01
+[0] A100-SXM4-40GB | 29°C,   0 % |     0 / 40537 MB |
+CUDA_VISIBLE_DEVICES=0
+task=agnews
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=10
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=0
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/agnews/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_10_balance_1
+03/10/2024 00:20:48 - INFO - __main__ - start print args
+03/10/2024 00:20:48 - INFO - __main__ - select_most_useful:1
+03/10/2024 00:20:48 - INFO - __main__ - mask_same_candidate_indication_pair:1
+03/10/2024 00:20:48 - INFO - __main__ - exp_tag:2022_1210_final
+03/10/2024 00:20:48 - INFO - __main__ - select_example_label_balance:1
+03/10/2024 00:20:48 - INFO - __main__ - select_metric:loss
+03/10/2024 00:20:48 - INFO - __main__ - indication_order_random_seed:100
+03/10/2024 00:20:48 - INFO - __main__ - progressive_p:3.0
+03/10/2024 00:20:48 - INFO - __main__ - initial_indication_set_size:4
+03/10/2024 00:20:48 - INFO - __main__ - final_candidate_size:10
+03/10/2024 00:20:48 - INFO - __main__ - indicate_example_from:random
+03/10/2024 00:20:48 - INFO - __main__ - debug_mode_trial_num:5
+03/10/2024 00:20:48 - INFO - __main__ - compare_debug_mode:0
+03/10/2024 00:20:48 - INFO - __main__ - method:direct
+03/10/2024 00:20:48 - INFO - __main__ - template_idx:0
+03/10/2024 00:20:48 - INFO - __main__ - do_train:False
+03/10/2024 00:20:48 - INFO - __main__ - do_zeroshot:True
+03/10/2024 00:20:48 - INFO - __main__ - do_check:False
+03/10/2024 00:20:48 - INFO - __main__ - use_calibration:0
+03/10/2024 00:20:48 - INFO - __main__ - use_demonstrations:False
+03/10/2024 00:20:48 - INFO - __main__ - ensemble:False
+03/10/2024 00:20:48 - INFO - __main__ - prompt_tune:False
+03/10/2024 00:20:48 - INFO - __main__ - head_tune:False
+03/10/2024 00:20:48 - INFO - __main__ - transform_tune:False
+03/10/2024 00:20:48 - INFO - __main__ - log_file:None
+03/10/2024 00:20:48 - INFO - __main__ - task:agnews
+03/10/2024 00:20:48 - INFO - __main__ - train_task:None
+03/10/2024 00:20:48 - INFO - __main__ - k:16
+03/10/2024 00:20:48 - INFO - __main__ - seed:100
+03/10/2024 00:20:48 - INFO - __main__ - train_seed:100
+03/10/2024 00:20:48 - INFO - __main__ - lr:1e-05
+03/10/2024 00:20:48 - INFO - __main__ - warmup_steps:0
+03/10/2024 00:20:48 - INFO - __main__ - batch_size:16
+03/10/2024 00:20:48 - INFO - __main__ - out_dir:None
+03/10/2024 00:20:48 - INFO - __main__ - split:candidate
+03/10/2024 00:20:48 - INFO - __main__ - n_prefix:20
+03/10/2024 00:20:48 - INFO - __main__ - gpt2:mistralai/Mistral-7B-Instruct-v0.1
+hhdjwldjwhdhdjncenc
+Loading checkpoint shards:   0%|                                                                                  | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████████████████████████████████████                                     | 1/2 [00:04<00:04,  4.58s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:06<00:00,  3.08s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:06<00:00,  3.30s/it]
+03/10/2024 00:21:09 - INFO - __main__ - ptm_name:mistralai/Mistral-7B-Instruct-v0.1
+03/10/2024 00:21:09 - INFO - __main__ - ptm param_num: 7241732096
+03/10/2024 00:21:09 - INFO - __main__ - direct agnews
+03/10/2024 00:21:09 - INFO - __main__ - label_set:Counter({'1': 25, '3': 20, '2': 18, '0': 12})
+03/10/2024 00:21:09 - INFO - __main__ - iter_num:2
+03/10/2024 00:21:09 - INFO - __main__ - at the 0 th iter, the candidate_num = 75, the indication_num = 4, the total pair num = 300,  remaining_candidate_num = 25
+03/10/2024 00:21:09 - INFO - __main__ - at the 1 th iter, the candidate_num = 25, the indication_num = 12, the total pair num = 300,  remaining_candidate_num = 10
+03/10/2024 00:21:09 - INFO - __main__ - whole training set label distribution:Counter({'1': 25, '3': 20, '2': 18, '0': 12})
+03/10/2024 00:21:09 - INFO - __main__ - start iter:0
+03/10/2024 00:21:09 - INFO - __main__ - indication num = 4
+03/10/2024 00:21:09 - INFO - __main__ - now_indication_idx:(46, 2, 74, 28)
+03/10/2024 00:21:09 - INFO - my_dataset - self.candidate_demonstrations[0]: ['Comcast, Microsoft to deploy DVR units. REDMOND, Wash. - Microsoft Corp. and cable television provider Comcast Corp. said Monday they would begin deploying set-top boxes powered by Microsoft software starting next week.', '2']
+03/10/2024 00:21:09 - INFO - my_dataset - mydataset max_length_per_example:256
+03/10/2024 00:21:09 - INFO - my_dataset - mydataset max_length:-1
+03/10/2024 00:21:09 - INFO - __main__ - mydataset size:1216
+03/10/2024 00:21:09 - INFO - __main__ - Checking the first example...
+03/10/2024 00:21:09 - INFO - __main__ - Input:
+03/10/2024 00:21:09 - INFO - __main__ - <s><s> Comcast, Microsoft to deploy DVR units. REDMOND, Wash. - Microsoft Corp. and cable television provider Comcast Corp. said Monday they would begin deploying set-top boxes powered by Microsoft software starting next week.<s>  Topic: Business.<s>  NGOs working to topple regime, says Mugabe. Harare - President Robert Mugabe has described non-government organisations in Zimbabwe as imperialists working to destabilise the nation.<s>  Topic:
+03/10/2024 00:21:09 - INFO - __main__ - Output:
+03/10/2024 00:21:09 - INFO - __main__ - World.</s>
+03/10/2024 00:21:09 - INFO - run - batch_size:16
+['Comcast, Microsoft to deploy DVR units. REDMOND, Wash. - Microsoft Corp. and cable television provider Comcast Corp. said Monday they would begin deploying set-top boxes powered by Microsoft software starting next week.', '2']
+["Venus Battles Through to Second Round. NEW YORK (Reuters) - Venus Williams advanced to the second  round of the U.S. Open on Tuesday but had to work hard for her  6-3, 7-6 victory against Hungary's Petra Mandula.", '1']
+["China to Impose Tariffs on Some Textiles (Reuters). Reuters - China will impose tariffs on some\\textile exports in a move that may ease frictions with the\\United States and others over an expected flood of Chinese\\products on world markets after a global quota system expires\\at year's end.", '2']
+['Two inmates found dead at prison. Detectives are investigating the deaths of two inmates who were both found hanged at Manchester Prison.', '0']
+["Packers Deal McKenzie. The Packers traded cornerback Mike McKenzie and a conditional draft choice to the Saints yesterday for reserve quarterback J.T. O'Sullivan and a second-round pick.", '1']
+data[0] in text_dataset: ['Comcast, Microsoft to deploy DVR units. REDMOND, Wash. - Microsoft Corp. and cable television provider Comcast Corp. said Monday they would begin deploying set-top boxes powered by Microsoft software starting next week.', '2']
+iter_num: 2
+hi, i am working
+hi, i am working
+prompt generation completed!
+dataset size: 1216
+batch_size:16
+  0%|                                                                                                            | 0/76 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)

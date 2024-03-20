@@ -1,0 +1,2566 @@
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/langchain/__init__.py:29: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain.prompts.PromptTemplate instead.
+  warnings.warn(
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/langchain/__init__.py:29: UserWarning: Importing LLMChain from langchain root module is no longer supported. Please use langchain.chains.LLMChain instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|                                                                                  | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████████████████████████████████████                                     | 1/2 [01:24<01:24, 84.52s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [02:03<00:00, 57.95s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [02:03<00:00, 61.94s/it]
+Loading checkpoint shards:   0%|                                                                                  | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████████████████████████████████████                                     | 1/2 [01:21<01:21, 81.03s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [02:05<00:00, 59.35s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [02:05<00:00, 62.67s/it]
+started running:
+exemplars:    Unnamed: 0                                           question  ... cluster  index
+5       90926  The average age of three boys is 15 years and ...  ...       0   1469
+6       18780  Can you deduce the pattern and find the next n...  ...       1  29560
+7       77054  In covering a distance of 42 km, A takes 2 hou...  ...       2  11108
+8       54611  Let the number which when multiplied by 15 is ...  ...       3  22115
+9       37309  A certain sum of money at simple interest amou...  ...       4  40669
+
+[5 rows x 7 columns]
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 1
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 2
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/pipelines/base.py:1101: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  warnings.warn(
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 6
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 3
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 4
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: C
+no.of completed 5
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: B
+no.of completed 6
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: E
+no.of completed 7
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 8
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 9
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 10
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 11
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: D
+no.of completed 12
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 13
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 14
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 15
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 16
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 17
+temp: 6
+temp: 7
+temp: 6
+temp: 8
+temp: 6
+opt: D
+
+answer: D
+ground_truth: E
+no.of completed 18
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 19
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 20
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 21
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 22
+temp: 8
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: E
+no.of completed 23
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 24
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 25
+temp: 7
+temp: 7
+temp: 8
+temp: 9
+temp: 7
+opt: D
+
+answer: D
+ground_truth: C
+no.of completed 26
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 27
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 28
+temp: 7
+temp: 7
+temp: 8
+temp: 8
+temp: 7
+opt: E
+
+answer: E
+ground_truth: E
+no.of completed 29
+temp: 7
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 30
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 31
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 32
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 33
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 8
+opt: D
+
+answer: D
+ground_truth: E
+no.of completed 34
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 35
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 36
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 37
+temp: 6
+temp: 6
+temp: 6
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 38
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 39
+temp: 6
+temp: 9
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 40
+temp: 7
+temp: 8
+temp: 8
+temp: 8
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 41
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 42
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: B
+no.of completed 43
+temp: 7
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 44
+temp: 7
+temp: 8
+temp: 7
+temp: 6
+temp: 6
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 45
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 46
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: A
+no.of completed 47
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+temp: 9
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 48
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 49
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: E
+no.of completed 50
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 51
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 52
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: A
+no.of completed 53
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 54
+temp: 7
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+opt: C
+
+answer: C
+ground_truth: C
+no.of completed 55
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 56
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 57
+temp: 6
+temp: 7
+temp: 8
+temp: 8
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 58
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 59
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 60
+temp: 7
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 61
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: B
+no.of completed 62
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 63
+temp: 8
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 64
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 65
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+opt: 
+
+answer: 
+ground_truth: B
+no.of completed 66
+temp: 6
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 67
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 68
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 69
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 70
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 71
+temp: 6
+temp: 6
+temp: 6
+temp: 8
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 72
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: E
+no.of completed 73
+temp: 7
+temp: 8
+temp: 7
+temp: 8
+temp: 6
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 74
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 75
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 76
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 77
+temp: 7
+temp: 8
+temp: 6
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 78
+temp: 6
+temp: 8
+temp: 7
+temp: 8
+temp: 6
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 79
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 80
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 81
+temp: 7
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 82
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 83
+temp: 7
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 84
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+temp: 6
+opt: C
+
+answer: C
+ground_truth: D
+no.of completed 85
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: E
+no.of completed 86
+temp: 7
+temp: 8
+temp: 7
+temp: 6
+temp: 7
+opt: C
+
+answer: C
+ground_truth: E
+no.of completed 87
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 88
+temp: 7
+temp: 7
+temp: 6
+temp: 8
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 89
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 90
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 91
+temp: 8
+temp: 6
+temp: 6
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 92
+temp: 8
+temp: 8
+temp: 8
+temp: 7
+temp: 8
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 93
+temp: 7
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+opt: E
+
+answer: E
+ground_truth: C
+no.of completed 94
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: C
+no.of completed 95
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 96
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 97
+temp: 7
+temp: 6
+temp: 6
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 98
+temp: 6
+temp: 7
+temp: 6
+temp: 6
+temp: 6
+opt: D
+
+answer: D
+ground_truth: E
+no.of completed 99
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 100
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 101
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 102
+temp: 7
+temp: 7
+temp: 6
+temp: 9
+temp: 6
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 103
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 104
+temp: 6
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 105
+temp: 8
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 106
+temp: 6
+temp: 8
+temp: 6
+temp: 7
+temp: 6
+opt: D
+
+answer: D
+ground_truth: C
+no.of completed 107
+temp: 7
+temp: 8
+temp: 6
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 108
+temp: 6
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 109
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 110
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 111
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: A
+no.of completed 112
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 113
+temp: 7
+temp: 7
+temp: 8
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 114
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 115
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 116
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 117
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: B
+no.of completed 118
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 119
+temp: 6
+temp: 8
+temp: 8
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 120
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 6
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 121
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 122
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 123
+temp: 8
+temp: 8
+temp: 6
+temp: 6
+temp: 8
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 124
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 125
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 8
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 126
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+opt: 
+
+answer: 
+ground_truth: A
+no.of completed 127
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 128
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 129
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 130
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: E
+no.of completed 131
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 132
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 133
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+temp: 8
+opt: E
+
+answer: E
+ground_truth: A
+no.of completed 134
+temp: 7
+temp: 7
+temp: 6
+temp: 8
+temp: 6
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 135
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+opt: 
+
+answer: 
+ground_truth: A
+no.of completed 136
+temp: 7
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 137
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: B
+no.of completed 138
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 8
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 139
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 140
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 141
+temp: 8
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 142
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 143
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+opt: B
+
+answer: B
+ground_truth: E
+no.of completed 144
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: C
+no.of completed 145
+temp: 7
+temp: 8
+temp: 8
+temp: 8
+temp: 8
+opt: A
+
+answer: A
+ground_truth: E
+no.of completed 146
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 147
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 148
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 149
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 150
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: A
+no.of completed 151
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 152
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 153
+temp: 8
+temp: 8
+temp: 7
+temp: 8
+temp: 6
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 154
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 155
+temp: 7
+temp: 8
+temp: 6
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: E
+no.of completed 156
+temp: 7
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: E
+no.of completed 157
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 158
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 159
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 160
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: C
+no.of completed 161
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 162
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 163
+temp: 6
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 164
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 165
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 166
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 167
+temp: 7
+temp: 6
+temp: 6
+temp: 6
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 168
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: B
+no.of completed 169
+temp: 7
+temp: 7
+temp: 8
+temp: 9
+temp: 8
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 170
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 171
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 172
+temp: 6
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 173
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: C
+no.of completed 174
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+opt: D
+
+answer: D
+ground_truth: E
+no.of completed 175
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 176
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 177
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 178
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 179
+temp: 7
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 180
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 181
+temp: 7
+temp: 8
+temp: 8
+temp: 8
+temp: 8
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 182
+temp: 8
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+opt: E
+
+answer: E
+ground_truth: E
+no.of completed 183
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 184
+temp: 7
+temp: 8
+temp: 6
+temp: 6
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 185
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 186
+temp: 7
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 187
+temp: 6
+temp: 6
+temp: 7
+temp: 6
+temp: 6
+opt: E
+
+answer: E
+ground_truth: C
+no.of completed 188
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: C
+no.of completed 189
+temp: 6
+temp: 6
+temp: 7
+temp: 6
+temp: 6
+opt: E
+
+answer: E
+ground_truth: D
+no.of completed 190
+temp: 7
+temp: 8
+temp: 6
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 191
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: A
+no.of completed 192
+temp: 6
+temp: 7
+temp: 6
+temp: 8
+temp: 8
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 193
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 194
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: E
+
+answer: E
+ground_truth: A
+no.of completed 195
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 196
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: C
+no.of completed 197
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: C
+no.of completed 198
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 199
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 200
+temp: 7
+temp: 7
+temp: 8
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: D
+no.of completed 201
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 202
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 203
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 8
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 204
+temp: 7
+temp: 8
+temp: 6
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 205
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 206
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 207
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 208
+temp: 6
+temp: 8
+temp: 6
+temp: 7
+temp: 8
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 209
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: E
+no.of completed 210
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 211
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 212
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 213
+temp: 6
+temp: 6
+temp: 6
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 214
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 215
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 216
+temp: 7
+temp: 7
+temp: 9
+temp: 9
+temp: 9
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 217
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 8
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 218
+temp: 7
+temp: 8
+temp: 8
+temp: 8
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 219
+temp: 7
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: C
+no.of completed 220
+temp: 6
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 221
+temp: 7
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+opt: E
+
+answer: E
+ground_truth: E
+no.of completed 222
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 223
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 224
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 225
+temp: 8
+temp: 8
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 226
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: B
+no.of completed 227
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+opt: A
+
+answer: A
+ground_truth: E
+no.of completed 228
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+temp: 6
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 229
+temp: 7
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+opt: C
+
+answer: C
+ground_truth: A
+no.of completed 230
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: E
+no.of completed 231
+temp: 7
+temp: 7
+temp: 6
+temp: 6
+temp: 7
+opt: C
+
+answer: C
+ground_truth: E
+no.of completed 232
+temp: 7
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 233
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 234
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 235
+temp: 6
+temp: 7
+temp: 6
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 236
+temp: 7
+temp: 8
+temp: 7
+temp: 8
+temp: 6
+opt: D
+
+answer: D
+ground_truth: D
+no.of completed 237
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: E
+no.of completed 238
+temp: 8
+temp: 7
+temp: 8
+temp: 8
+temp: 8
+opt: D
+
+answer: D
+ground_truth: C
+no.of completed 239
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: C
+no.of completed 240
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: E
+no.of completed 241
+temp: 7
+temp: 8
+temp: 7
+temp: 8
+temp: 7
+opt: B
+
+answer: B
+ground_truth: C
+no.of completed 242
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: C
+
+answer: C
+ground_truth: C
+no.of completed 243
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+temp: 8
+opt: D
+
+answer: D
+ground_truth: A
+no.of completed 244
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: E
+no.of completed 245
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: B
+no.of completed 246
+temp: 7
+temp: 7
+temp: 6
+temp: 6
+temp: 6
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 247
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: E
+
+answer: E
+ground_truth: A
+no.of completed 248
+temp: 6
+temp: 6
+temp: 7
+temp: 7
+temp: 6
+opt: B
+
+answer: B
+ground_truth: E
+no.of completed 249
+temp: 8
+temp: 8
+temp: 7
+temp: 6
+temp: 7
+opt: B
+
+answer: B
+ground_truth: A
+no.of completed 250
+temp: 8
+temp: 7
+temp: 7
+temp: 7
+temp: 7
+opt: B
+
+answer: B
+ground_truth: D
+no.of completed 251
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+temp: 8
+opt: D
+
+answer: D
+ground_truth: B
+no.of completed 252
+temp: 7
+temp: 7
+temp: 7
+temp: 6
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 253
+temp: 7
+temp: 7
+temp: 8
+temp: 7
+temp: 7
+opt: A
+
+answer: A
+ground_truth: A
+no.of completed 254
+EM 0.33858267716535434
+Traceback (most recent call last):
+  File "ability_transfer_advhotpot.py", line 1576, in <module>
+    test_few_shot_prediction()
+  File "ability_transfer_advhotpot.py", line 1571, in test_few_shot_prediction
+    final_df = get_open_source_completions(test_data, train_data)
+  File "ability_transfer_advhotpot.py", line 1559, in get_open_source_completions
+    return final_questions
+NameError: name 'final_questions' is not defined

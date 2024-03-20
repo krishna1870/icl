@@ -1,0 +1,139 @@
+Starting at Sunday 17 March 2024 10:38:34 PM IST
+Running on hosts: scn15-10g
+Running on 1 nodes.
+Running 32 tasks.
+Job id is 232315
+Job submission directory is : /nlsasfs/home/ttbhashini/sbishal/ICL/krishna
+scn15-mn           Sun Mar 17 22:38:39 2024  450.236.01
+[0] A100-SXM4-40GB | 30°C,   0 % |     0 / 40537 MB |
+CUDA_VISIBLE_DEVICES=0
+task=aquarat
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=50
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=0
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+progressive filtering finishes. start search
+03/17/2024 22:39:40 - INFO - __main__ - now print args
+03/17/2024 22:39:40 - INFO - __main__ - Namespace(batch_size=32, beam_size=8, cache_hash='-1', candidate_example_num_every_label=3, candidate_example_num_total=15, debug_candidate_size=-1, direct_plus=0, diversity_score_scale=4.0, final_batch_size=8, initial_example_idxs='searched_from_heuristic_score', initial_example_idxs_repeat_limit=4, input_dir='exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1', label_balance=1, max_length=1024, max_length_per_example=256, method='direct', num_indication=100, num_iteration=10, output_dir='exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1/search_dir', ptm_name='mistralai/Mistral-7B-Instruct-v0.1', sample_topk_range=4, seed=100, select_metric='loss', shuffle_order_num_in_beam=2, task='aquarat', template_idx=0, test_at_which_iter='first_last', train_data_shuffle_and_select_indication_data_seed=100, verify_metric='acc', which_diversity_feature='lm_feedback', which_normalization='std')
+03/17/2024 22:39:40 - INFO - __main__ - total calculate count:640
+03/17/2024 22:39:41 - INFO - __main__ - hash:c9c1e3f83912ebfd69333645cae436df
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py:775: FutureWarning: In the future `np.str` will be defined as the corresponding NumPy scalar.
+  if isinstance(value, (np.str, str)) or value is None:
+0
+exps
+1
+tag_2022_1210_final
+2
+mistralai
+3
+Mistral-7B-Instruct-v0.1
+4
+aquarat
+5
+direct
+6
+tempalte_0
+7
+seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+dataset is loading
+aquarat is loading
+['Question: question options: options', 4]
+["Question: Three birds are flying at a fast rate of 900 kilometers per hour. What is their speed in miles per minute? [1km = 0.6 miles] options: ['A)32400', 'B)6000', 'C)600', 'D)60000', 'E)10']", 0]
+["Question: A ship is leaving a port. It takes 240 seconds to passes through a 750m channel to get to the port gates, and takes 60 seconds to pass through the gates of the port. What is its length? options: ['A)100 m', 'B)150 m', 'C)200 m', 'D)250 m', 'E)300 m']", 3]
+["Question: A rectangular piece of cloth 2 feet wide was cut lengthwise into two smaller rectangular pieces. The shorter piece was one-third of the length of the longer of the 2 new pieces and had an area of 12 square feet. What was the length Q in feet of the original piece of cloth before cutting? options: ['A)6', 'B)18', 'C)24', 'D)36', 'E)48']", 2]
+["Question: In the xy-coordinate plane, which of the following points must lie on the line kx + 2y = 6 for every possible value of k? options: ['A)(1,1)', 'B)(0,3)', 'C)(2,0)', 'D)(3,6)', 'E)(6,3)']", 1]
+data[0] in text_dataset: ['Question: question options: options', 4]
+direct
+Traceback (most recent call last):
+  File "main_for_iterative_optimize_train_acc_balance.py", line 330, in <module>
+    fitlog.add_hyper(args)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/__init__.py", line 247, in add_hyper
+    _logger.add_hyper(value, name)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py", line 58, in wrapper
+    return func(*args, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py", line 82, in wrapper
+    return func(*args, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py", line 484, in add_hyper
+    _check_dict_value(value)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py", line 775, in _check_dict_value
+    if isinstance(value, (np.str, str)) or value is None:
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'str'.
+`np.str` was a deprecated alias for the builtin `str`. To avoid this error in existing code, use `str` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.str_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+task=aquarat
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=50
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=1
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+progressive filtering finishes. start search
+03/17/2024 22:39:46 - INFO - __main__ - now print args
+03/17/2024 22:39:46 - INFO - __main__ - Namespace(batch_size=32, beam_size=8, cache_hash='-1', candidate_example_num_every_label=3, candidate_example_num_total=15, debug_candidate_size=-1, direct_plus=1, diversity_score_scale=4.0, final_batch_size=8, initial_example_idxs='searched_from_heuristic_score', initial_example_idxs_repeat_limit=4, input_dir='exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1', label_balance=1, max_length=1024, max_length_per_example=256, method='direct', num_indication=100, num_iteration=10, output_dir='exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1/search_dir', ptm_name='mistralai/Mistral-7B-Instruct-v0.1', sample_topk_range=4, seed=100, select_metric='loss', shuffle_order_num_in_beam=2, task='aquarat', template_idx=0, test_at_which_iter='first_last', train_data_shuffle_and_select_indication_data_seed=100, verify_metric='acc', which_diversity_feature='lm_feedback', which_normalization='std')
+03/17/2024 22:39:46 - INFO - __main__ - total calculate count:640
+03/17/2024 22:39:46 - INFO - __main__ - hash:3607cff081d57fe5321f2896ec1bb8d5
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py:775: FutureWarning: In the future `np.str` will be defined as the corresponding NumPy scalar.
+  if isinstance(value, (np.str, str)) or value is None:
+0
+exps
+1
+tag_2022_1210_final
+2
+mistralai
+3
+Mistral-7B-Instruct-v0.1
+4
+aquarat
+5
+direct
+6
+tempalte_0
+7
+seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+dataset is loading
+aquarat is loading
+['Question: question options: options', 4]
+["Question: Three birds are flying at a fast rate of 900 kilometers per hour. What is their speed in miles per minute? [1km = 0.6 miles] options: ['A)32400', 'B)6000', 'C)600', 'D)60000', 'E)10']", 0]
+["Question: A ship is leaving a port. It takes 240 seconds to passes through a 750m channel to get to the port gates, and takes 60 seconds to pass through the gates of the port. What is its length? options: ['A)100 m', 'B)150 m', 'C)200 m', 'D)250 m', 'E)300 m']", 3]
+["Question: A rectangular piece of cloth 2 feet wide was cut lengthwise into two smaller rectangular pieces. The shorter piece was one-third of the length of the longer of the 2 new pieces and had an area of 12 square feet. What was the length Q in feet of the original piece of cloth before cutting? options: ['A)6', 'B)18', 'C)24', 'D)36', 'E)48']", 2]
+["Question: In the xy-coordinate plane, which of the following points must lie on the line kx + 2y = 6 for every possible value of k? options: ['A)(1,1)', 'B)(0,3)', 'C)(2,0)', 'D)(3,6)', 'E)(6,3)']", 1]
+data[0] in text_dataset: ['Question: question options: options', 4]
+direct
+Traceback (most recent call last):
+  File "main_for_iterative_optimize_train_acc_balance.py", line 330, in <module>
+    fitlog.add_hyper(args)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/__init__.py", line 247, in add_hyper
+    _logger.add_hyper(value, name)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py", line 58, in wrapper
+    return func(*args, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py", line 82, in wrapper
+    return func(*args, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py", line 484, in add_hyper
+    _check_dict_value(value)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/fitlog/fastlog/logger.py", line 775, in _check_dict_value
+    if isinstance(value, (np.str, str)) or value is None:
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/numpy/__init__.py", line 305, in __getattr__
+    raise AttributeError(__former_attrs__[attr])
+AttributeError: module 'numpy' has no attribute 'str'.
+`np.str` was a deprecated alias for the builtin `str`. To avoid this error in existing code, use `str` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.str_` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations

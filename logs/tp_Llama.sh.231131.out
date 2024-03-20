@@ -1,0 +1,183 @@
+Starting at Wednesday 13 March 2024 03:27:01 AM IST
+Running on hosts: scn50-10g
+Running on 1 nodes.
+Running 32 tasks.
+Job id is 231131
+Job submission directory is : /nlsasfs/home/ttbhashini/sbishal/ICL/krishna
+scn50-mn           Wed Mar 13 03:27:02 2024  450.236.01
+[0] A100-SXM4-40GB | 35°C,   0 % |     0 / 40537 MB |
+CUDA_VISIBLE_DEVICES=0
+task=aquarat
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=50
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=0
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+03/13/2024 03:27:06 - INFO - __main__ - start print args
+03/13/2024 03:27:06 - INFO - __main__ - select_most_useful:1
+03/13/2024 03:27:06 - INFO - __main__ - mask_same_candidate_indication_pair:1
+03/13/2024 03:27:06 - INFO - __main__ - exp_tag:2022_1210_final
+03/13/2024 03:27:06 - INFO - __main__ - select_example_label_balance:1
+03/13/2024 03:27:06 - INFO - __main__ - select_metric:loss
+03/13/2024 03:27:06 - INFO - __main__ - indication_order_random_seed:100
+03/13/2024 03:27:06 - INFO - __main__ - progressive_p:3.0
+03/13/2024 03:27:06 - INFO - __main__ - initial_indication_set_size:4
+03/13/2024 03:27:06 - INFO - __main__ - final_candidate_size:50
+03/13/2024 03:27:06 - INFO - __main__ - indicate_example_from:random
+03/13/2024 03:27:06 - INFO - __main__ - debug_mode_trial_num:5
+03/13/2024 03:27:06 - INFO - __main__ - compare_debug_mode:0
+03/13/2024 03:27:06 - INFO - __main__ - method:direct
+03/13/2024 03:27:06 - INFO - __main__ - template_idx:0
+03/13/2024 03:27:06 - INFO - __main__ - do_train:False
+03/13/2024 03:27:06 - INFO - __main__ - do_zeroshot:True
+03/13/2024 03:27:06 - INFO - __main__ - do_check:False
+03/13/2024 03:27:06 - INFO - __main__ - use_calibration:0
+03/13/2024 03:27:06 - INFO - __main__ - use_demonstrations:False
+03/13/2024 03:27:06 - INFO - __main__ - ensemble:False
+03/13/2024 03:27:06 - INFO - __main__ - prompt_tune:False
+03/13/2024 03:27:06 - INFO - __main__ - head_tune:False
+03/13/2024 03:27:06 - INFO - __main__ - transform_tune:False
+03/13/2024 03:27:06 - INFO - __main__ - log_file:None
+03/13/2024 03:27:06 - INFO - __main__ - task:aquarat
+03/13/2024 03:27:06 - INFO - __main__ - train_task:None
+03/13/2024 03:27:06 - INFO - __main__ - k:16
+03/13/2024 03:27:06 - INFO - __main__ - seed:100
+03/13/2024 03:27:06 - INFO - __main__ - train_seed:100
+03/13/2024 03:27:06 - INFO - __main__ - lr:1e-05
+03/13/2024 03:27:06 - INFO - __main__ - warmup_steps:0
+03/13/2024 03:27:06 - INFO - __main__ - batch_size:16
+03/13/2024 03:27:06 - INFO - __main__ - out_dir:None
+03/13/2024 03:27:06 - INFO - __main__ - split:candidate
+03/13/2024 03:27:06 - INFO - __main__ - n_prefix:20
+03/13/2024 03:27:06 - INFO - __main__ - gpt2:mistralai/Mistral-7B-Instruct-v0.1
+hhdjwldjwhdhdjncenc
+Loading checkpoint shards:   0%|                                                                                  | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████████████████████████████████████                                     | 1/2 [01:30<01:30, 90.20s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [02:15<00:00, 63.93s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [02:15<00:00, 67.87s/it]
+03/13/2024 03:29:50 - INFO - __main__ - ptm_name:mistralai/Mistral-7B-Instruct-v0.1
+03/13/2024 03:29:50 - INFO - __main__ - ptm param_num: 7241732096
+03/13/2024 03:29:50 - INFO - __main__ - direct aquarat
+Traceback (most recent call last):
+  File "main_for_progressive_examples_selection.py", line 761, in <module>
+    main(logger, args)
+  File "main_for_progressive_examples_selection.py", line 344, in main
+    train_data = load_data_by_fp(args.task)
+  File "main_for_progressive_examples_selection.py", line 188, in load_data_by_fp
+    print(data[i])
+IndexError: list index out of range
+progressive filtering finishes. start search
+0
+exps
+1
+tag_2022_1210_final
+2
+mistralai
+3
+Mistral-7B-Instruct-v0.1
+4
+aquarat
+5
+direct
+6
+tempalte_0
+7
+seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+Traceback (most recent call last):
+  File "main_for_iterative_optimize_train_acc_balance.py", line 244, in <module>
+    test_examples = load_data_by_fp(args.task, task_test_fp)
+  File "/nlsasfs/home/ttbhashini/sbishal/ICL/krishna/ICL_Support_Example/main_for_progressive_examples_selection.py", line 160, in load_data_by_fp
+    'Question: {} options: {}'.format(s1, s2),
+UnboundLocalError: local variable 's1' referenced before assignment
+task=aquarat
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=50
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=1
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+03/13/2024 03:30:00 - INFO - __main__ - start print args
+03/13/2024 03:30:00 - INFO - __main__ - select_most_useful:1
+03/13/2024 03:30:00 - INFO - __main__ - mask_same_candidate_indication_pair:1
+03/13/2024 03:30:00 - INFO - __main__ - exp_tag:2022_1210_final
+03/13/2024 03:30:00 - INFO - __main__ - select_example_label_balance:1
+03/13/2024 03:30:00 - INFO - __main__ - select_metric:loss
+03/13/2024 03:30:00 - INFO - __main__ - indication_order_random_seed:100
+03/13/2024 03:30:00 - INFO - __main__ - progressive_p:3.0
+03/13/2024 03:30:00 - INFO - __main__ - initial_indication_set_size:4
+03/13/2024 03:30:00 - INFO - __main__ - final_candidate_size:50
+03/13/2024 03:30:00 - INFO - __main__ - indicate_example_from:random
+03/13/2024 03:30:00 - INFO - __main__ - debug_mode_trial_num:5
+03/13/2024 03:30:00 - INFO - __main__ - compare_debug_mode:0
+03/13/2024 03:30:00 - INFO - __main__ - method:direct
+03/13/2024 03:30:00 - INFO - __main__ - template_idx:0
+03/13/2024 03:30:00 - INFO - __main__ - do_train:False
+03/13/2024 03:30:00 - INFO - __main__ - do_zeroshot:True
+03/13/2024 03:30:00 - INFO - __main__ - do_check:False
+03/13/2024 03:30:00 - INFO - __main__ - use_calibration:0
+03/13/2024 03:30:00 - INFO - __main__ - use_demonstrations:False
+03/13/2024 03:30:00 - INFO - __main__ - ensemble:False
+03/13/2024 03:30:00 - INFO - __main__ - prompt_tune:False
+03/13/2024 03:30:00 - INFO - __main__ - head_tune:False
+03/13/2024 03:30:00 - INFO - __main__ - transform_tune:False
+03/13/2024 03:30:00 - INFO - __main__ - log_file:None
+03/13/2024 03:30:00 - INFO - __main__ - task:aquarat
+03/13/2024 03:30:00 - INFO - __main__ - train_task:None
+03/13/2024 03:30:00 - INFO - __main__ - k:16
+03/13/2024 03:30:00 - INFO - __main__ - seed:100
+03/13/2024 03:30:00 - INFO - __main__ - train_seed:100
+03/13/2024 03:30:00 - INFO - __main__ - lr:1e-05
+03/13/2024 03:30:00 - INFO - __main__ - warmup_steps:0
+03/13/2024 03:30:00 - INFO - __main__ - batch_size:16
+03/13/2024 03:30:00 - INFO - __main__ - out_dir:None
+03/13/2024 03:30:00 - INFO - __main__ - split:candidate
+03/13/2024 03:30:00 - INFO - __main__ - n_prefix:20
+03/13/2024 03:30:00 - INFO - __main__ - gpt2:mistralai/Mistral-7B-Instruct-v0.1
+hhdjwldjwhdhdjncenc
+Loading checkpoint shards:   0%|                                                                                  | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████████████████████████████████████                                     | 1/2 [00:03<00:03,  3.08s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:48<00:00, 27.96s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:48<00:00, 24.23s/it]
+03/13/2024 03:31:16 - INFO - __main__ - ptm_name:mistralai/Mistral-7B-Instruct-v0.1
+03/13/2024 03:31:16 - INFO - __main__ - ptm param_num: 7241732096
+03/13/2024 03:31:16 - INFO - __main__ - direct aquarat
+Traceback (most recent call last):
+  File "main_for_progressive_examples_selection.py", line 761, in <module>
+    main(logger, args)
+  File "main_for_progressive_examples_selection.py", line 344, in main
+    train_data = load_data_by_fp(args.task)
+  File "main_for_progressive_examples_selection.py", line 188, in load_data_by_fp
+    print(data[i])
+IndexError: list index out of range
+progressive filtering finishes. start search
+0
+exps
+1
+tag_2022_1210_final
+2
+mistralai
+3
+Mistral-7B-Instruct-v0.1
+4
+aquarat
+5
+direct
+6
+tempalte_0
+7
+seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+Traceback (most recent call last):
+  File "main_for_iterative_optimize_train_acc_balance.py", line 244, in <module>
+    test_examples = load_data_by_fp(args.task, task_test_fp)
+  File "/nlsasfs/home/ttbhashini/sbishal/ICL/krishna/ICL_Support_Example/main_for_progressive_examples_selection.py", line 160, in load_data_by_fp
+    'Question: {} options: {}'.format(s1, s2),
+UnboundLocalError: local variable 's1' referenced before assignment

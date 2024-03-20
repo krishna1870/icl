@@ -1,0 +1,79 @@
+Starting at Tuesday 20 February 2024 12:04:29 AM IST
+Running on hosts: scn48-10g
+Running on 1 nodes.
+Running 32 tasks.
+Job id is 223151
+Job submission directory is : /nlsasfs/home/ttbhashini/sbishal/ICL/krishna
+scn48-mn           Tue Feb 20 00:04:35 2024  450.236.01
+[0] A100-SXM4-40GB | 29°C,   0 % |     0 / 40537 MB |
+Token will not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: write).
+Your token has been saved to /nlsasfs/home/ttbhashini/sbishal/.cache/huggingface/token
+Login successful
+Loading checkpoint shards:   0%|                                                                          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████████████████████████████████                                 | 1/2 [01:23<01:23, 83.34s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████| 2/2 [02:04<00:00, 58.80s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████| 2/2 [02:04<00:00, 62.49s/it]
+Loading checkpoint shards:   0%|                                                                          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████████████████████████████████                                 | 1/2 [00:05<00:05,  5.40s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████| 2/2 [00:07<00:00,  3.69s/it]Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████| 2/2 [00:07<00:00,  3.95s/it]
+/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/sklearn/cluster/_kmeans.py:1416: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  super()._check_params_vs_input(X, default_n_init=10)
+started running:
+checkpoint-1:
+3-done
+check-point-2:
+predicting:   0%|                                                                                        | 0/10 [00:00<?, ?it/s]predicting:   0%|                                                                                        | 0/10 [01:07<?, ?it/s]
+
+Answer:  increased 6.8
+GT:  -6.6
+
+Answer:  78.3
+GT:  9500
+
+Answer:  increased 192
+GT:  30.7
+
+Answer:  50
+GT:  27.73
+Traceback (most recent call last):
+  File "bio.py", line 1496, in <module>
+    test_few_shot_prediction()
+  File "bio.py", line 1491, in test_few_shot_prediction
+    final_df = get_open_source_completions(test_data, train_data)
+  File "bio.py", line 1416, in get_open_source_completions
+    exemplars = static_subset_selection(val_data, train_data, 5, test_data)
+  File "bio.py", line 640, in static_subset_selection
+    LLM_loss = LLM_error_indicator(U, val_data)
+  File "bio.py", line 466, in LLM_error_indicator
+    tmp_list = in_context_manual_prediction(row,exemplars)
+  File "bio.py", line 112, in in_context_manual_prediction
+    outputs = pipeline(prompt, max_new_tokens=200, do_sample=True, num_return_sequences=10, temperature=0.5, top_k=10, top_p=1.0)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/pipelines/text_generation.py", line 208, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/pipelines/base.py", line 1140, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/pipelines/base.py", line 1147, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/pipelines/base.py", line 1046, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/pipelines/text_generation.py", line 271, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/generation/utils.py", line 1764, in generate
+    return self.sample(
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/generation/utils.py", line 2861, in sample
+    outputs = self(
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/models/mistral/modeling_mistral.py", line 1044, in forward
+    outputs = self.model(
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/models/mistral/modeling_mistral.py", line 929, in forward
+    layer_outputs = decoder_layer(
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/models/mistral/modeling_mistral.py", line 654, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nlsasfs/home/ttbhashini/sbishal/anaconda3/envs/TP/lib/python3.8/site-packages/transformers/models/mistral/modeling_mistral.py", line 300, in forward
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(query_states.dtype)
+RuntimeError: CUDA out of memory. Tried to allocate 1.78 GiB (GPU 0; 39.59 GiB total capacity; 34.09 GiB already allocated; 1.50 GiB free; 36.80 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,23 @@
+Starting at Sunday 10 March 2024 12:49:17 AM IST
+Running on hosts: scn15-10g
+Running on 1 nodes.
+Running 32 tasks.
+Job id is 230286
+Job submission directory is : /nlsasfs/home/ttbhashini/sbishal/ICL/krishna
+scn15-mn           Sun Mar 10 00:49:19 2024  450.236.01
+[0] A100-SXM4-40GB | 28°C,   0 % |     0 / 40537 MB |
+CUDA_VISIBLE_DEVICES=0
+task=agnews
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=10
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=0
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/agnews/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_10_balance_1

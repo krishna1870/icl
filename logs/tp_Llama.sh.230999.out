@@ -1,0 +1,61 @@
+Starting at Tuesday 12 March 2024 02:51:28 PM IST
+Running on hosts: scn15-10g
+Running on 1 nodes.
+Running 32 tasks.
+Job id is 230999
+Job submission directory is : /nlsasfs/home/ttbhashini/sbishal/ICL/krishna
+scn15-mn           Tue Mar 12 14:51:35 2024  450.236.01
+[0] A100-SXM4-40GB | 26°C,   0 % |     3 / 40537 MB |
+CUDA_VISIBLE_DEVICES=0
+task=aquarat
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=50
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=0
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+  File "main_for_progressive_examples_selection.py", line 174
+    if task == "CoLA":
+                     ^
+SyntaxError: invalid syntax
+progressive filtering finishes. start search
+Traceback (most recent call last):
+  File "main_for_iterative_optimize_train_acc_balance.py", line 20, in <module>
+    from main_for_progressive_examples_selection import load_data_by_fp,N_LABELS_DICT
+  File "/nlsasfs/home/ttbhashini/sbishal/ICL/krishna/ICL_Support_Example/main_for_progressive_examples_selection.py", line 174
+    if task == "CoLA":
+                     ^
+SyntaxError: invalid syntax
+task=aquarat
+template_idx=0
+method=direct
+progressive_p=3
+initial_indication_set_size=4
+CUDA_VISIBLE_DEVICES=0
+ptm_name=mistralai/Mistral-7B-Instruct-v0.1
+final_candidate_size=50
+label_balance=1
+candidate_example_num_total=-1
+candidate_example_num_every_label=3
+direct_plus=1
+diversity_score_scale=4
+input_dir=exps/tag_2022_1210_final/mistralai/Mistral-7B-Instruct-v0.1/aquarat/direct/tempalte_0/seed_100_use_loss_p_3.0_initial_i_size_4_final_c_size_50_balance_1
+  File "main_for_progressive_examples_selection.py", line 174
+    if task == "CoLA":
+                     ^
+SyntaxError: invalid syntax
+progressive filtering finishes. start search
+Traceback (most recent call last):
+  File "main_for_iterative_optimize_train_acc_balance.py", line 20, in <module>
+    from main_for_progressive_examples_selection import load_data_by_fp,N_LABELS_DICT
+  File "/nlsasfs/home/ttbhashini/sbishal/ICL/krishna/ICL_Support_Example/main_for_progressive_examples_selection.py", line 174
+    if task == "CoLA":
+                     ^
+SyntaxError: invalid syntax
